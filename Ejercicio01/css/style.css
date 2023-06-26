@@ -1,0 +1,130 @@
+body{
+    /* background-image: url(../images/fondo.jpg); */
+    background-image: url(../images/fondo-2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.row{
+    /* border: 1px solid red; */
+}
+
+.col{
+    /* border: 1px solid blue; */
+}
+
+.maximoWidth{
+    max-width: 500px;
+}
+
+
+/* ************************************** */
+/* ENCABEZADO SUPERIOR WEB */
+/* ************************************** */
+#encabezadoSuperior{
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+#encabezadoSuperior h1{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#encabezadoSuperior p{
+    font-size: .8em;
+
+}
+
+/* ************************************** */
+/* ENCABEZADO LOGIN */
+/* ************************************** */
+#encabezadoForm{
+    background-color: #fff;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #909090;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+
+#encabezadoForm img{
+    max-width: 2em;
+}
+
+#encabezadoForm h2{
+    font-size: 1.3em;
+}
+
+#encabezadoForm p{
+    font-size: .8em;
+}
+
+/* ************************************** */
+/* FORMULARIO LOGIN */
+/* ************************************** */
+#formularioLogin{
+    background-color: #e1e1e1;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#formularioLogin input::placeholder{
+    color: #909090;    
+}
+
+#logInForm{
+    background-color: #4addc1;
+}
+#logInForm:hover{
+    background-color: #28CEAD;
+}
+
+/* ************************************** */
+/* LOGIN WITH INFERIOR */
+/* ************************************** */
+.loginWithInferiorContenedor{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.loginWithInferiorContenedor a{
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: .5em;
+}
+
+.loginWithInferiorContenedor a:hover{
+    color: #e5e5e5;
+}
+
+
+/* ************************************** */
+/* BOTONES RRSS*/
+/* ************************************** */
+#contenedorRRSS{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.botonRRSS{
+    color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    background-color: rgba(0,0,0,40%);
+    /* padding: .3em .6em; */
+}
+
+.botonRRSS:hover{
+    background-color: rgba(255,255,255,40%);
+    color: #232323;
+    border: 1px solid #232323;
+}
