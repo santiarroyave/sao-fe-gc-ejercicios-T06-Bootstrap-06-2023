@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    background-color: #d6d6d6;
+}
+
+
+/* *********************************** */
+/* NAV GRIS SUPERIOR */
+/* *********************************** */
+#navSuperior div ul{
+    margin: 0;
+    padding: 0;
+} 
+
+#navSuperior div ul li{
+    list-style: none;
+    color: #6a6b70;
+    margin: 0 .5em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#navSuperior div ul li:hover{
+    filter: brightness(60%);
+}
+
+/* *********************************** */
+/* NAV AZUL INFERIOR */
+/* *********************************** */
+#logoEmpresa{
+    max-width: 8em;
+}
+
+#navInferior li a{
+    color: #fff;
+}
+
+#navInferior{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color:transparent !important;
+}
+
+#navInferior > div{
+    background-color: #2980b9;
+}
+
+
+.menuGrandeIco{
+    color: #fff;
+    font-size: 2em;
+    border-left: 1px solid rgba(0,0,0,10%);
+    padding: .27em .5em;
+}
+.menuGrandeIco:hover{
+    background-color: #2572a4;
+}
+.menuActivo{
+    background-color: #fff;
+}
+.menuActivo a{
+    color: #6a6b70 !important;
+}
+
+.listaMenu > li{
+    padding: .8em .5em;
+    border-left: 1px solid rgba(0,0,0,10%);
+}
+.listaMenu > li:hover:not(.menuActivo){
+    background-color: #2572a4;
+}
+
+.listaMenu2{
+    padding: 0;
+}
+.listaMenu2 li{
+    margin: 0;
+}
+.listaMenu2 a{
+    padding: 0.5em .8em;
+    vertical-align: middle;
+}
+.listaMenu2 li:hover{
+    background-color: #2572a4;
+
+}
+.listaMenu2 i{
+    font-size: 1.5em;
+}
+
+li.usuario{
+    font-size: 1.2em;
+    margin-left: .5em;
+}
+

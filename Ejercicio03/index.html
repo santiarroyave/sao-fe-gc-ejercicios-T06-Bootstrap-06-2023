@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="p-4">
+    
+    <!-- Barra superirior gris -->
+    <div id="navSuperior" class="navbar navbar-expand-lg bg-body-tertiary rounded-top-3 d-flex justify-content-between">
+        <div class="col">
+            <ul class="d-flex d-inline-flex flex-wrap align-items-center">
+                <li class="p-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    +84123 456 999
+                </li>
+                <li class="p-2">
+                    <i class="bi bi-send-fill"></i>
+                    name@gmail.com
+                </li>
+                <li class="p-2">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    123 street CH city
+                </li>
+            </ul>
+        </div>
+        <div class="col d-flex justify-content-end">
+            <ul class="d-flex d-inline-flex flex-wrap align-items-center justify-content-end">
+                <li class="p-2">Sing Up</li>
+                <li class="p-2">Login</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Barra azul -->
+    <nav id="navInferior" class="navbar navbar-expand-lg bg-body-tertiary barraNavegacion">
+        <div class="container-fluid rounded-bottom-3">
+            <a class="navbar-brand" href="#"><img src="./images/uthemes.webp" alt="" id="logoEmpresa"></a>
+            
+            <!-- Boton desplegable movil -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <i class="bi bi-list menuGrandeIco"></i>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 listaMenu">
+
+                    <li class="nav-item menuActivo">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="bi bi-house-fill"></i>
+                            Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-envelope-fill"></i>
+                            About
+                        </a>
+                    </li>
+
+                    <!-- SERVICIOS -->
+                    <ul class="navbar-nav listaMenu">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle px-2 border-rl nav-height show" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="bi bi-gear-fill"></i>
+                                Services
+                            </a>
+                            <ul class="dropdown-menu multi-level dropdown-menu-dark show" aria-labelledby="dLabel" data-bs-popper="none">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-file-earmark-play"></i>
+                                        Watching new movies</a>
+                                </li>
+                                
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-music-note-beamed"></i>
+                                        Listening music</a>
+
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sub item 01</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sub item 02</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sub item 03</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sub item 04</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sub item 05</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Sub item 06</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-controller"></i>
+                                        Play new games</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-journal-bookmark-fill"></i>
+                                        Lean new desing
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">
+                            <i class="bi bi-send-fill"></i>
+                            Disabled
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">
+                            Mega
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+                <!-- MENU LATERAL DERECHO -->
+                <ul class="nav listaMenu2 d-none d-xxl-flex">
+                    <form class="d-flex align-items-center" role="search">
+                        <input class="form-control me-2 buscador" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    
+                    <li class="nav-item d-flex align-items-stretch">
+                        <a class="nav-link disabled d-flex align-items-center">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-stretch">
+                        <a class="nav-link disabled d-flex align-items-center">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-stretch">
+                        <a class="nav-link disabled d-flex align-items-center">
+                            <i class="bi bi-google"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-stretch">
+                        <a class="nav-link disabled d-flex align-items-center">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-stretch usuario">
+                        <a class="nav-link disabled d-flex align-items-center">
+                            <i class="bi bi-person-fill"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                
+
+            </div>
+        </div>
+    </nav>
+
+    
+</body>
+</html>
