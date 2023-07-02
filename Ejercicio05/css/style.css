@@ -1,0 +1,34 @@
+body{
+    
+}
+
+.selectorSuperior{
+    /* max-width: 6em; */
+    width: auto;
+}
+
+h1{
+    color: #007cf3;
+}
+
+/* // Usage */
+.custom-container {
+    max-width: 960px;
+}
+
+.tablaBordes{
+    border: 1px solid rgba(0,0,0, 20%);
+}
+
+.tablaBordes thead{
+    border-bottom: 3px solid rgba(0,0,0, 20%);
+}
+
+.tablaBordes td{
+    border: 1px solid rgba(0,0,0, 20%);
+}
+
+.botonesNavegacion label{
+    border-color: rgba(0,0,0, 20%);
+    color: #232323;
+}
